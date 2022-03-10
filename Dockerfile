@@ -1,6 +1,7 @@
 FROM python:3.8
 
 WORKDIR /app
+sudo userbenson -aG docker jenkins
 
 COPY requirements.txt requirements.txt
 
