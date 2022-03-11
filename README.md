@@ -69,18 +69,8 @@ pytest test_routes.py
 Now that we have our sweet Flask API, we're going to deploy them on Docker container. But this process will take place automatically, thanks to Jenkins. We will use Jenkins to auto-deploy our API.
 Follow these steps:
 
-- We will use Jenkins as a Docker image. So to setup Jenkins, run:
-```
-docker run -d --name flask-jenkins -p 8080:8080 jenkins:2.7.2
-```
-
-NB: Make sure you have docker installed
-
-After installing Jenkins should be running on port 8080. So head to `http://localhost:8080` and you'll see something like this:
-
-- Get the Jenkins admin password
-
-- Configure Jenkins
+- We will use Jenkins on GCP instance 
+ with the public ssh you will be able to acess the jenkins website login .
 
 
 
