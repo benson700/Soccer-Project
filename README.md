@@ -47,17 +47,8 @@ python3 routes.py
 
 - Up to this point, all endpoints are live. You can check them
 
-# Endpoints
-- - /players 
-  will take you to the page were players are created in the db 
-  /players/<int:id>
-  will allow you retrieve players by id 
-  /team 
-  will tkae you to create team
-  /delete/<int:id>
-  will allow you delete a player by  id 
-  /player/update/<int:id>
-  will allow you update player from server 
+# Endpoints 
+  a very detailed way to use the end points are explained via link https://udictimailer.gitbook.io/football-api-endpoints/
 
   cc the routes.py for more endpoint functions 
 
