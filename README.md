@@ -26,8 +26,7 @@ which are used in `routes.py` (our endpoints)
 - Clone the project
 
 ```
-git clone https://github.com/benson700/QA-FootballProject.git
-```
+git clone https://github.com/benson700/Soccer-Project.git
 
 - Navigate in the directory
 
