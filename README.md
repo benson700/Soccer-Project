@@ -32,11 +32,11 @@ git clone https://github.com/benson700/QA-FootballProject.git
 - Navigate in the directory
 
 ```
-cd QA-FootballProject
+cd Soccer-Project
 ```
 
 # Run the project
-In the directory `QA-FootballProject`.
+In the directory `Soccer-Project`.
 - Install the requirements
 ```
 pip install -r requirements.txt
