@@ -48,8 +48,18 @@ python3 routes.py
 - Up to this point, all endpoints are live. You can check them
 
 # Endpoints
-- Endpoints are well explained in the detailed documentation.
-You can read them [here](https://github.com)
+- - /players 
+  will take you to the page were players are created in the db 
+  /players/<int:id>
+  will allow you retrieve players by id 
+  /team 
+  will tkae you to create team
+  /delete/<int:id>
+  will allow you delete a player by  id 
+  /player/update/<int:id>
+  will allow you update player from server 
+
+  cc the routes.py for more endpoint functions 
 
 # Running tests with Pytest
 
