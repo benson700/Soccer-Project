@@ -1,15 +1,15 @@
 pipeline {
     agent any
-    stages{
+    stages {
         stage('test') {
             steps{
-                sh "python3 tests/test_routes.py"
+                sh "python3 -m pytest "
             }
         }
     }
-        post {
-           always {
-               archiveArtifacts artifacts:"Jsoncov/*"
-           }
+    post {
+        always {
+            archiveArtifacts artifacts:"Jsoncov/*"
+        }
     }
 }
